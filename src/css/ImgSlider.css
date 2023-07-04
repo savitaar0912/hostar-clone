@@ -1,0 +1,30 @@
+.carousel-indicators {
+  position: relative;
+  margin: 0px auto;
+  top: -30px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+.carousel-inner {
+  padding: 30px;
+}
+
+.carousel-item {
+  border: 4px double #353535;
+  transition: ease-out 1s;
+  box-shadow: 2px 2px 5px 5px #0c0d11;
+}
+.carousel-item:hover {
+  border: 4px white;
+  border-style: ridge;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.carousel-control-prev,
+.carousel-control-next {
+  height: min-content;
+  top: 25vh;
+}
